@@ -1,8 +1,8 @@
 #!/bin/bash
 # imdb
 
-mkdir PartB
-mkdir PartB/Java
-mkdir PartB/Java/imdb
-mkdir PartB/Java/imdb/input
-hadoop jar WordCount.jar PartB/Java/imdb/input/quotes.list output
+mkdir PartC
+mkdir PartC/Java
+mkdir PartC/Java/ItemClick
+mkdir PartC/Java/ItemClick/input
+hadoop jar ItemClick.jar PartC/Java/ItemClick/input/clicks.txt output
